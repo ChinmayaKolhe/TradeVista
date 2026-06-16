@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+const { getTrending, getQuote, getCandles, searchStocks, getMarketOverview } = require('../controllers/marketController');
+const { protect } = require('../middleware/auth');
+router.get('/trending', protect, getTrending);
+router.get('/overview', protect, getMarketOverview);
+router.get('/search', protect, searchStocks);
+router.get('/quote/:symbol', protect, getQuote);
+router.get('/candles/:symbol', protect, getCandles);
+module.exports = router;
