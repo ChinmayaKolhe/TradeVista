@@ -1,4 +1,4 @@
-# TradeVista — India Virtual Trading Simulator
+# TradeVista - India Virtual Trading Simulator
 
 TradeVista is a full-stack MERN (MongoDB, Express, React, Node.js) web application that simulates real-world stock trading for the Indian market. Users register with a custom virtual purse amount in Indian Rupees (₹), then buy and sell Indian (NSE) and US (NASDAQ) stocks using virtual money - with no real funds involved. The platform includes AI-powered sentiment analysis, Groq LLM price predictions, interactive technical charts, a trade journal, and a live watchlist.
 
@@ -12,7 +12,7 @@ TradeVista is designed for Indian traders and learners who want to practice stoc
 
 - All prices displayed in Indian Rupees (₹) with Indian locale formatting (en-IN)
 - Supports NSE Indian stocks (RELIANCE.NS, TCS.NS, INFY.NS, etc.) and US stocks (AAPL, NVDA, etc.)
-- Flexible virtual purse — user chooses their starting capital (₹50K to ₹1 Crore) at registration
+- Flexible virtual purse - user chooses their starting capital (₹50K to ₹1 Crore) at registration
 - Indian market indices on dashboard — NIFTY 50, SENSEX, BANK NIFTY, NIFTY IT, NIFTY MIDCAP, NIFTY PHARMA
 - AI sentiment analysis on market news via Hugging Face models
 - AI price predictions powered by Groq LLM (Llama 3)
@@ -107,11 +107,11 @@ tradevista/
 
 - **Node.js** v18 or higher
 - **MongoDB Atlas** account (free tier works)
-- API keys are **optional** — the app runs with built-in mock data for all features
+- API keys are **optional** - the app runs with built-in mock data for all features
 
 ---
 
-### Step 1 — Clone the repository and install dependencies
+### Step 1 - Clone the repository and install dependencies
 
 ```bash
 git clone <repo-url>
@@ -123,9 +123,9 @@ This installs dependencies for the root, backend, and frontend in one command.
 
 ---
 
-### Step 2 — Configure environment variables
+### Step 2 - Configure environment variables
 
-**Backend** — create `backend/.env` (copy from the example):
+**Backend** - create `backend/.env` (copy from the example):
 
 ```bash
 cp backend/.env.example backend/.env
@@ -148,7 +148,7 @@ HUGGINGFACE_API_KEY=your_huggingface_key
 CLIENT_URL=http://localhost:3000
 ```
 
-**Frontend** — create `frontend/.env`:
+**Frontend** - create `frontend/.env`:
 
 ```env
 REACT_APP_API_URL=http://localhost:5000/api
@@ -157,7 +157,7 @@ REACT_APP_SOCKET_URL=http://localhost:5000
 
 ---
 
-### Step 3 — Start the development servers
+### Step 3 - Start the development servers
 
 ```bash
 # Run frontend and backend together
@@ -173,7 +173,7 @@ npm run dev:frontend   # React app     → http://localhost:3000
 
 ---
 
-### Step 4 — Register and start trading
+### Step 4 - Register and start trading
 
 1. Open `http://localhost:3000` in your browser
 2. Click **Create Account**
