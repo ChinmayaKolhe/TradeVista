@@ -178,8 +178,8 @@ npm run dev:frontend   # React app     → http://localhost:3000
 1. Open `http://localhost:3000` in your browser
 2. Click **Create Account**
 3. Fill in your name, email, and password
-4. On the next step, choose your **virtual purse amount** in ₹ — from ₹50,000 to ₹1 Crore (or enter a custom amount)
-5. Click **Start Trading** — you land on the dashboard
+4. On the next step, choose your **virtual purse amount** in ₹ - from ₹50,000 to ₹1 Crore (or enter a custom amount)
+5. Click **Start Trading** - you land on the dashboard
 6. Go to **Trading** and search for Indian stocks like `RELIANCE.NS`, `TCS.NS`, `INFY.NS`, or US stocks like `AAPL`, `NVDA`
 7. Buy/sell shares from your virtual ₹ balance with no real money involved
 
